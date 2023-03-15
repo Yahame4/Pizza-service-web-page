@@ -1,0 +1,41 @@
+@font-face {
+    font-family: pageFont;
+    src: url(FontType.ttf);
+}
+.DriverContainer{
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-left: 0px;
+    overflow: hidden;
+    opacity: .9;
+    background-color:  var(--white);
+}
+
+.textFahrerStatus {
+    color: var(--green);
+    font-family: pageFont;
+}
+.pDriver{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: pageFont;
+    font-size: 1rem;
+}
+
+.textFinishedBaker{
+    color:orange;
+    font-family: pageFont;
+}
+
+.textOntheWay{
+    color:yellowgreen;
+    font-family: pageFont;
+}
+
+.textDelivered{
+    color:green;
+    font-family: pageFont;
+}

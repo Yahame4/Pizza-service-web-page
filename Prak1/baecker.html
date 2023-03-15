@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <title>B&auml;cker</title>
+</head>
+<body>
+<h1>B&auml;cker</h1>
+
+<table id= "BaeckerStatus">
+    <caption> </caption>
+
+    <tr>  <!-- th tabellen kopf überschrift -->
+        <th id="pizzaSort"></th>
+        <th id="orderedStatus"></th>
+        <th id="cookedStatus"></th>
+        <th id="finishedStatus"></th>
+    </tr>
+
+    <tr>  <!-- tr = 1 Zeile -->
+        <td></td>
+        <td>bestellt</td>
+        <td>im Ofen</td>
+        <td>fertig</td>
+    </tr>
+
+    <tr>
+        <!-- tr = 2 Zeile -->
+        <td>Margherita</td>
+        <td><input type="radio" name="row1" value="1" onclick="document.forms['1'].submit();"/></td>
+        <td><input type="radio" name="row1" value="2" onclick="document.forms['2'].submit();"/></td>
+        <td><input type="radio" name="row1" value="3" onclick="document.forms['3'].submit();"/></td>
+    </tr>
+
+    <tr>
+        <!-- tr = 3 Zeile -->
+        <td>Salami</td>
+        <td><input type="radio" name="row2" value="1" onclick="document.forms['1'].submit();"/></td>
+        <td><input type="radio" name="row2" value="2" onclick="document.forms['2'].submit();"/></td>
+        <td><input type="radio" name="row2" value="3" onclick="document.forms['3'].submit();"/></td>
+    </tr>
+
+    <tr>
+        <!-- tr = 4 Zeile -->
+        <td>Hawaii</td>
+        <td><input type="radio" name="row3" value="1" onclick="document.forms['1'].submit();"/></td>
+        <td><input type="radio" name="row3" value="2" onclick="document.forms['2'].submit();"/></td>
+        <td><input type="radio" name="row3" value="3" onclick="document.forms['3'].submit();"/></td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>

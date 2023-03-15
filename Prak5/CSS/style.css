@@ -1,0 +1,185 @@
+:root {
+  --green: #008000;
+  --red: #CC0000;
+  --blue: #000080;
+  --lightgreen: #a6c89d;
+  --white: #fff;
+  --black: #000;
+  --lightblack: rgb(0, 0, 0, 0.10);
+  --darkgrey:#23272b;
+  --grey: #666666;
+  --lightgrey: #999999;
+  ;
+  font-family: pageFont;
+}
+
+body {
+    text-align: center;
+    background-image: url('../images/kräuter.jfif');
+    background-size: cover;
+}
+h1 {
+  color: var(--white);
+  font-size: 3em;
+  text-shadow: 0.25rem 0.25rem 0.25rem var(--black);
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: var(--black);
+}
+
+h3 {
+font-size: 1.25rem;
+color: var(--black);
+}
+
+ul {
+    list-style-type: none;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-left: 0rem;
+    overflow: hidden;
+    background-color: var(--white);
+    box-shadow: 0.25rem 0.25rem hsl(0, 0%, 0%);
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    font-size: 1.25rem;
+    color: var(--black);
+    text-align: center;
+    padding: 0.75rem 0.85rem;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: var(--lightgreen);
+  }
+
+.active {
+    background-color:var(--green);
+}
+
+.speisekarte {
+    border: rgb(144, 142, 142);
+    background-color: var(--white);
+    border-radius: 0.25rem;
+    width: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1.5em;
+    max-width: 70%;
+    background-color: var(--white);
+  }
+  
+  .container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .pizzawahl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+  }
+  
+  .card {
+    background: var(--white);
+    width: 18rem;
+    height: 100%;
+    border-radius: 0.5em;
+  }
+
+  .pizzawahl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+  }
+    
+.card img {
+    max-width: 20rem;
+    height: 20rem;
+  }
+
+  .Seperator {
+    border-bottom: 1px solid var(--lightblack);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+  .Warenkorb {
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-left: 0rem;
+    overflow: hidden;
+    opacity: .9;
+    background-color:  var(--white);
+}
+
+.PizzaSelect {
+  width: 22%;
+  color: var(--green);
+}
+
+.deleteBtn {
+  border-radius: 0.45rem;
+  background-color: var(--darkgrey);
+  color: var(--white);
+  font-size: large;
+  font-family: pageFont;
+}
+.submitBtn {
+  border-radius: 0.45rem;
+  background-color: var(--green);
+  color: var(--white);
+  border-color: var(--green);
+  font-size: large;
+  font-family: pageFont;
+}
+
+button:disabled,
+button[disabled]{
+  border: 0.1rem solid var(--lightgrey);
+  background-color: var(--lightgrey);
+  color: var(--white);
+}
+
+.pizzaName {
+  padding-left: 70px;
+  font-weight: bold;
+  width:max-content;
+}
+
+  
+
+
+
+
+
+
